@@ -22,7 +22,7 @@ public class Varasto {
             this.tilavuus = tilavuus;
         } else // virheellinen, nollataan
         {
-            this.tilavuus = 0.0;  // => käyttökelvoton varasto
+            this.tilavuus = 1.0;  // => käyttökelvoton varasto
         }
         if (alkuSaldo < 0.0) {
             this.saldo = 0.0;
